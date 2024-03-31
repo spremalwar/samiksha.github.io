@@ -221,12 +221,12 @@ body
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-/*#services{
+#skills{
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
-}*/
+}
 .sub-title{
     text-align: center;
     font-size: 60px;
@@ -238,13 +238,13 @@ body
 .container{
     padding: 90px; 
 }
-/*.services-list{
+.skills-list{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div{
+.skills-list div{
     background-color: transparent;
     padding: 40px;
     font-size: 13px;
@@ -255,16 +255,16 @@ body
     box-shadow: 1px 1px 20px #D27D2D,
                 1px 1px 40px #CC5500;
 }
-.services-list div i{
+.skills-list div i{
     font-size: 50px;
     margin-bottom: 30px;
 }
-.services-list div h2{
+.skills-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div a{
+.skills-list div a{
     text-decoration: none;
     color: #000000;
     font-size: 12px;
@@ -292,11 +292,11 @@ body
     0 0 25px orange, 0 0 50px orange,
     0 0 100px orange, 0 0 200px orange;
 }
-.services-list div:hover{
+.skills-list div:hover{
     transform: translateY(-10px);
-}*/
+}
 
-.section {
+/*.section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
@@ -536,7 +536,7 @@ body
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
-}
+}*/
 .main-text {
     padding-top: 70px; /* Adjust as needed */
     margin-top: 0;
