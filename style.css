@@ -182,10 +182,10 @@ body
 }
 .image img{
     position: absolute;
-    top: 30px;
-    left: 50%
+    top: 5px;
+    left: 20%
     transform translateX(-50%);
-    max-width: 350px;
+    max-width: 400px;
     object-fit: cover;
 }
 .about{
@@ -196,7 +196,7 @@ body
 }
 .about-img img{
     padding-bottom: 20%;
-    max-width: 630px;
+    max-width: 400px;
     height: auto;
     width: 100%;
     border-radius: 8px;
