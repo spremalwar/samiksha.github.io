@@ -540,7 +540,7 @@ body
     opacity: 0;
 }*/
 .main-text {
-    padding-top: 70px; /* Adjust as needed */
+    padding-top: 70px; 
     margin-top: 0;
 }
 
@@ -548,7 +548,7 @@ body
     font-size: 60px;
     line-height: 1;
     text-align: center;
-    margin-bottom: 40px; /* Add space between heading and images */
+    margin-bottom: 40px; 
 }
 
 .main-text h2 span {
@@ -558,6 +558,7 @@ body
 .portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+    grid-gap: 20px;
 }
 
 .row {
@@ -565,6 +566,7 @@ body
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    
 }
 
 .row img {
@@ -593,14 +595,14 @@ body
 }
 
 .layer h5 {
-    color: #000;
+    color: white;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .layer p {
-    color: #000;
+    color: white;
     font-size: 1rem;
     line-height: 1.8;
 }
@@ -732,12 +734,12 @@ body
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    transition: box-shadow 0.3s ease; /* Added transition */
-    box-shadow: 0 0 5px orange; /* Initial shadow */
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 5px orange; 
 }
 
 .contact-form form .send:hover {
-    box-shadow: 0 0 20px orange, 0 0 40px orange, 0 0 80px orange; /* Adjusted shadow on hover */
+    box-shadow: 0 0 20px orange, 0 0 40px orange, 0 0 80px orange; 
 }
 
 .last-text p{
