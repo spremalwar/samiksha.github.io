@@ -810,3 +810,173 @@ body
         opacity:1;
     }
 }
+
+
+/* Adjustments for responsiveness */
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 20px 2%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .home-content h3,
+    .home-content h1,
+    .home-content p {
+        font-size: 18px;
+    }
+
+    .home-img {
+        max-width: 320px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .skills-list div {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .skills-list div i {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .skills-list div h2 {
+        font-size: 20px;
+    }
+
+    .skills-list div a {
+        font-size: 12px;
+    }
+
+    .contact-text h2 {
+        font-size: 40px;
+    }
+
+    .contact-text h4 {
+        font-size: 18px;
+    }
+
+    .contact-text p {
+        font-size: 14px;
+    }
+
+    .contact-form form input,
+    .contact-form textarea {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .contact-form textarea {
+        height: 180px;
+    }
+
+    .contact-form form .send {
+        padding: 12px 50px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: none;
+    }
+
+    .header .logo {
+        opacity: 1;
+    }
+
+    .header .navbar {
+        display: block;
+    }
+
+    .home-content h3,
+    .home-content h1 {
+        font-size: 16px;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    .about-text h2 {
+        font-size: 32px;
+    }
+
+    .about-text h4 {
+        font-size: 16px;
+    }
+
+    .skills-list,
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-list div,
+    .contact-text,
+    .contact-form {
+        text-align: center;
+    }
+
+    .skills-list div {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .skills-list div i {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .skills-list div h2 {
+        font-size: 20px;
+    }
+
+    .skills-list div a {
+        font-size: 12px;
+    }
+
+    .contact-text h2 {
+        font-size: 40px;
+    }
+
+    .contact-text h4 {
+        font-size: 18px;
+    }
+
+    .contact-text p {
+        font-size: 14px;
+    }
+
+    .contact-form form input,
+    .contact-form textarea {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .contact-form textarea {
+        height: 160px;
+    }
+
+    .contact-form form .send {
+        padding: 12px 50px;
+        font-size: 16px;
+    }
+}
