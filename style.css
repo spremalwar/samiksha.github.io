@@ -822,7 +822,7 @@ body
 
 @media screen and (max-width: 768px) {
     .navbar a {
-        font-size: 20px;
+        font-size: 10px;
         margin-left: 10px;
     }
 
