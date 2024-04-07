@@ -23,16 +23,22 @@ body
     justify-content: space-between;
     z-index: 100;
 }
-.logo{
+.logo {
     position: relative;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
-    opacity: 0;
+    opacity: 1; 
     animation: slideRight 1s ease forwards;
+    display: flex; 
+    align-items: center; 
+}
 
+.logo img {
+    max-height: 40px; 
+    margin-right: 10px; 
 }
 .navbar a{
     display: inline-block;
