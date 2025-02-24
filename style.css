@@ -143,7 +143,7 @@ body
     0 0 25px orange, 0 0 50px orange,
     0 0 100px orange,0 0 200px orange;
 }
-.home-img {
+/* .home-img {
     width: 410px;
     height: 410px;
     position: absolute;
@@ -193,7 +193,7 @@ body
     transform translateX(-50%);
     max-width: 400px;
     object-fit: cover;
-}
+} */
 .about{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
